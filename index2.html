@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+	<title>Broken Bones Trivia</title>
+</head>
+
+<body >
+
+<div class="container"> 
+<div class =" main-content ">
+
+<img  src="assets/images/broken.jpeg">	<br>
+
+<audio controls autoplay>
+ <source src="assets/images/Broken Bones - Into.mp3" type="audio/mpeg">
+</audio>
+<h1 id="results">Trivia!</h1>
+<div class ="hold">
+<div class="row">
+<div class="col-md-4">
+<h3>Right: <span id="win">0</span></h3>
+</div>
+<div class="col-md-4"><div id="show-number">
+</div>
+</div>
+<div class="col-md-4">
+<h3>Wrong: <span id="loss">0</span></h3>
+</div>
+</div>
+</div>
+
+<form><h3>What is Broken Bones's first single release?</h3>
+<p>
+<input type="radio" name="q1" id= "a1">Crucifix</input>
+<input type="radio" name="q1" id = "b1">Decapitated</input>
+<input type="radio" name="q1" id ="c1" >Dem Bones</input>
+<input type="radio" name="q1" id = "d1" >Bonecrusher</input>
+</p>
+</form>
+
+<form> <h3> Who appeared on every album of Broken Bones? </h3>
+<p>
+<input type="radio" name="q2" id= "a2">Oddy</input>
+<input type="radio" name="q2" id ="b2">Baz</input>
+<input type="radio" name="q2" id = "c2">Nobby</input>
+<input type="radio" name="q2" id = "d2">Bones</input>
+</p>
+</form>
+
+<form><h3>In which album did band member Tezz only played guitar in?</h3>      
+<p>
+<input type="radio" name="q3" id= "a3">Bonecrusher</input>
+<input type="radio" name="q3" id= "b3">F.O.A.D.</input>
+<input type="radio" name="q3" id= "c3">Never Say Die</input>
+<input type="radio" name="q3" id= "d3">Trader in Death</input>
+</p>
+</form>
+
+<form><h3> Name one song that Oddy didn't contribute as lead vocalist. </h3>
+<p>
+<input type="radio" name="q4" id= "a4">It's Like</input>
+<input type="radio" name="q4" id= "b4">Death is Imminent</input>  
+<input type="radio" name="q4" id= "c4">Problem</input>
+<input type="radio" name="q4" id= "d4">Seeing Through My Eyes</input>
+</p>
+</form>
+
+<form><h3> Broken  Bones was a spin off from which band?</h3>
+<p>
+<input type="radio" name="q5" id= "a5">The Exploited</input>
+<input type="radio" name="q5" id= "b5">Discharge</input>
+<input type="radio" name="q5" id= "c5">Charged GBH</input>
+<input type="radio" name="q5" id= "d5">Vice Squad</input>
+</p>
+</form>
+
+<form><h3> Where is Broken Bones orginally from?</h3>
+<p>
+<input type="radio" name="q6" id= "a6">Stoke on Trent</input>
+<input type="radio" name="q6" id= "b6">Liverpool</input>
+<input type="radio" name="q6" id= "c6">Birmingham</input>
+<input type="radio" name="q6" id= "d6">London</input>
+</p>
+</form>
+
+<form><h3>What was the last record release that vocalist Nobby appeared in?</h3>
+<p>
+<input type="radio" name="q7" id= "a7">Never Say Die</input>
+<input type="radio" name="q7" id= "b7">Dem Bones</input>
+<input type="radio" name="q7" id= "c7">F.O.A.D.</input>
+<input type="radio" name="q7" id= "d7">Trader in Death</input>
+</p>
+</form>
+
+<form><h3>Which band did Oddy joined after leaving Broken Bones in the mid 80's? </h3>
+<p>
+<input type="radio" name="q8" id= "a8">The Subhumans</input>
+<input type="radio" name="q8" id= "b8">Conflict</input>
+<input type="radio" name="q8" id= "c8">Crass</input>
+<input type="radio" name="q8" id= "d8">Rudimentary Peni</input>
+</p>
+</form>
+
+<form><h3>What year did Broken Bones first played in the United States?</h3>
+<p>
+<input type="radio" name="q9" id= "a9">1985</input>
+<input type="radio" name="q9" id= "b9">1986</input>
+<input type="radio" name="q9" id= "c9">1988</input>
+<input type="radio" name="q9" id= "d9">1989</input>
+</p>
+</form>
+
+<form><h3>What is the name of the first record label Broken Bones signed on to?</h3>
+<p>
+<input type="radio" name="q10" id= "a10">Clay Records</input>
+<input type="radio" name="q10" id= "b10">Fall Out Records</input>
+<input type="radio" name="q10" id= "c10">Combat Core </input>
+<input type="radio" name="q10" id= "d10">Heavy Metal records</input>
+</p>
+</form>
+
+<!-- onclick= "Msumbit()" -->
+ <input class="finish" type="submit" value="Finish"  method= "get" id="buttonSubmit" >
+
+</div>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="assets/javascript/app.js"></script>
+
+</body>
+</html>
