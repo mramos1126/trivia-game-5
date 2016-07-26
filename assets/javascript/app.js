@@ -30,7 +30,7 @@ var number = 50;
 //multiple choices conditions
 
 
-  $("#buttonSubmit").one("click", function(){
+  $("#buttonSubmit").on("click", function(){
         Msumbit();
     });
 
@@ -41,7 +41,7 @@ var correctAnswer1 = document.getElementById("b1" )
 	if (correctAnswer1.checked === true){
 		wincount++;
 		//alert("right" + wincount) 
-		
+		console.log("Correct" + wincount)
 		
 	$("#win").html(wincount);
 	}
